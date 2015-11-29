@@ -6,4 +6,3 @@
     - vars/main.yml
   roles:
     - { role: install-apache, tags: ['install'] }
-    - { role: remove-apache, tags: ['remove'] }
